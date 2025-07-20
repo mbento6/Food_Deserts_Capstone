@@ -22,7 +22,7 @@ This capstone explores the intersection of food access and chronic disease. The 
 * Level: State
 * Key Fields: `Obesity among adults`, `Diabetes among adults`, `High blood pressure among adults`
 * Captures the prevalence of chronic diseases and behaviors across U.S. states
-* https://data.cdc.gov/d/hksd-2xuw
+* https://chronicdata.cdc.gov/Chronic-Disease-Indicators/U-S-Chronic-Disease-Indicators/hksd-2xuw
 
 ---
 
