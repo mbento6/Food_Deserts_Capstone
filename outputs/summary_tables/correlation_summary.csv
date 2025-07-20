@@ -1,0 +1,4 @@
+Health Outcome,Food Access Variable,Pearson r,p-value,Interpretation
+Obesity,percent_lila_1and10,0.569,0.0,Stronger positive correlation; limited access to grocery stores is strongly associated with higher obesity rates.
+Diabetes,percent_lila_1and10,0.524,0.0001,Moderate positive correlation indicating that limited food access may contribute to higher diabetes prevalence.
+BloodPressure,percent_lila_1and10,0.378,0.0068,"Weaker but significant positive correlation; food access may be a factor, but other contributors likely exist."
