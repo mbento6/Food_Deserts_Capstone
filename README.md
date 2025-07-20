@@ -15,12 +15,14 @@ This capstone explores the intersection of food access and chronic disease. The 
 * Level: Census Tract
 * Key Fields: `LILATracts_1And10`, `PovertyRate`, `MedianFamilyIncome`, `State`, `County`
 * Describes population-level access to healthy food based on income, vehicle access, and distance from stores
+* https://www.ers.usda.gov/data-products/food-access-research-atlas/
 
 ### 2. **CDC Chronic Disease Indicators (BRFSS)**
 
 * Level: State
 * Key Fields: `Obesity among adults`, `Diabetes among adults`, `High blood pressure among adults`
 * Captures the prevalence of chronic diseases and behaviors across U.S. states
+* https://chronicdata.cdc.gov/
 
 ---
 
