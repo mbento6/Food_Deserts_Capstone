@@ -65,16 +65,42 @@ Visualizations generated in `scripts/visualize.py` and saved to `outputs/figures
 Food_Deserts_Capstone/
 ├── data/
 │   ├── raw/
-│   └── processed/
+│   │   ├── Food_Access_Raw.csv
+│   │   └── Chronic_Diseases_Raw.csv
+│   ├── processed/
+│   │   └── merged_summary.csv
+│
 ├── notebooks/
+│   ├── 01_data_wrangling.ipynb
 │   └── 02_analysis_visuals.ipynb
+│
 ├── scripts/
-│   ├── wrangle.py
-│   └── visualize.py
+│   ├── visualize.py
+│   └── summarize.py
+│
 ├── outputs/
-│   └── figures/
+│   ├── figures/
+│   │   ├── correlation_heatmap.png
+│   │   ├── obesity_vs_food_access.png
+│   │   ├── diabetes_vs_food_access.png
+│   │   ├── diabetes_among_adults_vs_food_access.png
+│   │   ├── high_vs_food_access.png
+│   │   ├── high_blood_pressure_among_adults_vs_food_access.png
+│   │   ├── top10_diabetes_among_adults.png
+│   │   ├── top10_high_blood_pressure_among_adults.png
+│   │   ├── top10_obesity_among_adults.png
+│   │   ├── bottom10_high_blood_pressure_among_adults.png
+│   │   ├── bottom10_obesity_among_adults.png
+│   │   └── bottom10_diabetes_among_adults.png
+│   └── summary_tables/
+│       └── correlation_summary.csv
+│
+├── reports/
+│   └── capstone_summary.md
+│
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
@@ -101,7 +127,6 @@ Food_Deserts_Capstone/
 2. Run `visualize.py` to generate charts in `outputs/figures`
 
 ```bash
-python scripts/wrangle.py
 python scripts/visualize.py
 ```
 
