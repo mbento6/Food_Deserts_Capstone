@@ -4,7 +4,7 @@
 
 **How does limited access to grocery stores relate to the prevalence of obesity, diabetes, and cardiovascular disease in communities across the United States?**
 
-This capstone explores the intersection of food access and chronic disease. The goal is to uncover whether communities classified as food deserts—those with low-income populations and limited access to healthy grocery options—show higher prevalence rates of chronic conditions.
+This capstone explores the intersection of food access and chronic disease. The goal is to uncover whether communities classified as food deserts, those with low-income populations and limited access to healthy grocery options, show higher prevalence rates of chronic conditions.
 
 ---
 
@@ -15,12 +15,14 @@ This capstone explores the intersection of food access and chronic disease. The 
 * Level: Census Tract
 * Key Fields: `LILATracts_1And10`, `PovertyRate`, `MedianFamilyIncome`, `State`, `County`
 * Describes population-level access to healthy food based on income, vehicle access, and distance from stores
+* https://www.ers.usda.gov/data-products/food-access-research-atlas/
 
 ### 2. **CDC Chronic Disease Indicators (BRFSS)**
 
 * Level: State
 * Key Fields: `Obesity among adults`, `Diabetes among adults`, `High blood pressure among adults`
 * Captures the prevalence of chronic diseases and behaviors across U.S. states
+* https://chronicdata.cdc.gov/Chronic-Disease-Indicators/U-S-Chronic-Disease-Indicators/hksd-2xuw (Manually paste it into your browser)
 
 ---
 
@@ -134,7 +136,7 @@ python scripts/visualize.py
 
 ## Status
 
-Complete — ready for presentation, review, and submission
+Complete ,  ready for presentation, review, and submission
 
 ---
 
